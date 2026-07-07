@@ -32,11 +32,11 @@ A Maxwell body consists of a spring and dashpot in series. Under constant stress
 ![Maxwell creep](assets/equations/maxwell_creep.svg)
 
 ```text
-sigma_0 : Applied force
-epsilon : Displacement output
-E       : Spring stiffness coeff.
-eta     : Dashpot viscosity coeff. 
-t       : Time
+σ_0   : Applied force
+ε     : Displacement output
+E     : Spring stiffness coeff.
+η     : Dashpot viscosity coeff. 
+t     : Time
 ```
 
 Under ideal step strain, the stress relaxation is:
@@ -44,11 +44,11 @@ Under ideal step strain, the stress relaxation is:
 ![Maxwell stress relaxation](assets/equations/maxwell_relaxation.svg)
 
 ```text
-sigma     : Force output
-epsilon_0 : Applied Displacement
-E         : Spring stiffness coeff.
-eta       : Dashpot viscosity coeff. 
-t         : Time
+σ     : Force output
+ε_0   : Applied Displacement
+E     : Spring stiffness coeff.
+η     : Dashpot viscosity coeff. 
+t     : Time
 ```
 
 ## Kelvin-Voigt model
@@ -60,11 +60,11 @@ A Kelvin-Voigt body consists of a spring and dashpot in parallel. Under constant
 ![Kelvin-Voigt creep](assets/equations/kelvin_voigt_creep.svg)
 
 ```text
-sigma_0 : Applied force
-epsilon : Displacement output
-E       : Spring stiffness coeff.
-eta     : Dashpot viscosity coeff. 
-t       : Time
+σ_0   : Applied force
+ε     : Displacement output
+E     : Spring stiffness coeff.
+η     : Dashpot viscosity coeff. 
+t     : Time
 ```
 
 ## Standard linear solid / Kelvin-body-style relaxation
@@ -76,13 +76,13 @@ A compact standard linear solid representation under constant stress, the creep 
 ![Standard linear solid creep](assets/equations/sls_creep.svg)
 
 ```text
-sigma_0   : Applied force
-epsilon   : Displacement output
-E_1       : Parallel spring stiffness coeff.
-E_2       : Maxwell / serial spring stiffness coeff.
-eta       : Dashpot viscosity coeff. 
-t         : Time
-tau_c     : Time constant
+σ_0   : Applied force
+ε     : Displacement output
+E_1   : Parallel spring stiffness coeff.
+E_2   : Maxwell / serial spring stiffness coeff.
+η     : Dashpot viscosity coeff. 
+t     : Time
+tau_c : Time constant
 ```
 
 A compact standard linear solid representation is used for Kelvin-body-style stress relaxation:
@@ -90,19 +90,19 @@ A compact standard linear solid representation is used for Kelvin-body-style str
 ![Standard linear solid relaxation](assets/equations/sls_relaxation.svg)
 
 ```text
-sigma     : Force output
-epsilon_0 : Applied Displacement
-E_1       : Parallel spring stiffness coeff.
-E_2       : Maxwell / serial spring stiffness coeff.
-eta       : Dashpot viscosity coeff. 
-t         : Time
+σ     : Force output
+ε_0   : Applied Displacement
+E_1   : Parallel spring stiffness coeff.
+E_2   : Maxwell / serial spring stiffness coeff.
+η     : Dashpot viscosity coeff. 
+t     : Time
 ```
 
 This captures an immediate elastic response followed by partial relaxation to a nonzero equilibrium stress.
 
 ## Hill-type twitch response
 
-![hill_type_muscle_model](assets/model_diagrams/hill_type_muscle_model-.png)
+![hill_type_muscle_model](assets/model_diagrams/hill_type_muscle_model_.png)
 
 The twitch impulse response is represented as the difference of two exponentials filtered by serial/parallel elastic and damping terms:
 
@@ -114,22 +114,22 @@ The twitch impulse response is represented as the difference of two exponentials
 for this workout:
 A1    = 48144
 A2    = 45845
-tau_1 = 0.0326
-tau_2 = 0.034 
+τ_1   = 0.0326
+τ_2   = 0.034 
 A_1   = A1 * tau_1 = 1570
 A_2   = A2 * tau_2 = 1559
 ```
 
 ```text
-F(t)         : Muscle-force output
-A(t)         : Active-force input
-A1, A2       : Amplitude coefficients of the active-force input
-tau_1, tau_2 : Exponential decay time constants
-A_1, A_2     : Time-scaled amplitude coefficients
-k_SE         : Serial spring stiffness coeff.
-k_PE         : Parallel spring stiffness coeff.
-b            : Dashpot viscosity coeff.
-t            : Time
+F(t)       : Muscle-force output
+A(t)       : Active-force input
+A1, A2     : Amplitude coefficients of the active-force input
+τ_1, τ_2   : Exponential decay time constants
+A_1, A_2   : Time-scaled amplitude coefficients
+k_SE       : Serial spring stiffness coeff.
+k_PE       : Parallel spring stiffness coeff.
+b          : Dashpot viscosity coeff.
+t          : Time
 ```
 
 For repeated stimulation, twitch responses are superposed at each stimulation time:
