@@ -9,7 +9,7 @@ The repository covers three modeling layers:
 1. **Fourier and Laplace-domain system analysis**
    - Fourier-transform magnitude examples.
    - Laplace-domain magnitude surfaces.
-   - Relationship between the `s = sigma + j*omega` domain and Fourier-domain slices.
+   - Relationship between the `s = σ + j*w` domain and Fourier-domain slices.
 
 2. **Viscoelastic body modeling**
    - Maxwell model.
