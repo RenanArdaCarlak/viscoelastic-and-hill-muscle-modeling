@@ -1,6 +1,6 @@
 # Equation Summary
 
-This document uses SVG equation images so the formulas render consistently in GitHub and standard Markdown previews. Each equation also has a plain-text fallback for readability in raw mode.
+This document uses SVG equation images so the formulas render consistently in GitHub and standard Markdown previews. 
 
 ## Fourier and Laplace-domain examples
 
