@@ -29,7 +29,7 @@ The Fourier-domain representation is the slice at `s = j*omega`:
 
 ## Maxwell model
 
-![Maxwell body model](assets/model_diagrams/maxwell_body.png)
+![Maxwell body model](assets/model_diagrams/maxwell_model.png)
 
 A Maxwell body consists of a spring and dashpot in series. Under constant stress, the creep strain is:
 
@@ -57,7 +57,7 @@ t         : Time
 
 ## Kelvin-Voigt model
 
-![Kelvin-Voigt body model](assets/model_diagrams/kelvin_voigt_body.png)
+![Kelvin-Voigt body model](assets/model_diagrams/kelvin_voigt_model.png)
 
 A Kelvin-Voigt body consists of a spring and dashpot in parallel. Under constant stress, the creep strain is:
 
@@ -73,7 +73,7 @@ t       : Time
 
 ## Standard linear solid / Kelvin-body-style relaxation
 
-![Standart linear solid body model](assets/model_diagrams/standard_linear_solid_body.png)
+![Standart linear solid body model](assets/model_diagrams/standard_linear_solid_model.png)
 
 A compact standard linear solid representation under constant stress, the creep strain is:
 
@@ -106,7 +106,7 @@ This captures an immediate elastic response followed by partial relaxation to a 
 
 ## Hill-type twitch response
 
-![hill_type_muscle_model](assets/model_diagrams/hill_type_muscle_model.png)
+![hill_type_muscle_model](assets/model_diagrams/hill_type_muscle_model-.png)
 
 The twitch impulse response is represented as the difference of two exponentials filtered by serial/parallel elastic and damping terms:
 
