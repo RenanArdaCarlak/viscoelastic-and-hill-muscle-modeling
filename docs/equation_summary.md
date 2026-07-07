@@ -8,10 +8,6 @@ The Fourier transform is treated as the frequency-domain slice of the more gener
 
 ![Fourier transform](assets/equations/fourier_transform.svg)
 
-```text
-G(omega) = F{f(t)} = integral from 0 to infinity of f(t) * exp(-j*omega*t) dt
-```
-
 ![Laplace transform](assets/equations/laplace_transform.svg)
 
 For the damped cosine response:
