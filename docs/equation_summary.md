@@ -18,7 +18,7 @@ The Laplace-domain representation is:
 
 ![Damped cosine Laplace transform](assets/equations/damped_cosine_laplace.svg)
 
-The Fourier-domain representation is the slice at `s = j*omega`:
+The Fourier-domain representation is the slice at `s = j*w`:
 
 ![Damped cosine Fourier-domain slice](assets/equations/damped_cosine_fourier.svg)
 
@@ -116,8 +116,8 @@ A1    = 48144
 A2    = 45845
 τ_1   = 0.0326
 τ_2   = 0.034 
-A_1   = A1 * tau_1 = 1570
-A_2   = A2 * tau_2 = 1559
+A_1   = A1 * τ_1 = 1570
+A_2   = A2 * τ_2 = 1559
 ```
 
 ```text
