@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Viscoelastic and Hill-Type Muscle Modeling"
+message: "If you reference this project, cite it as below."
+type: software
+authors:
+  - family-names: Carlak
+    given-names: Renan Arda
+year: 2026
+license: other
+repository-code: "https://github.com/RenanArdaCarlak/viscoelastic-and-hill-muscle-modeling"
+license-url: "https://github.com/RenanArdaCarlak/viscoelastic-and-hill-muscle-modeling/blob/main/LICENSE"

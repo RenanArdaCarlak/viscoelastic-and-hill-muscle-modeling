@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title desc">
+  <title id="title">Standard linear solid creep response equation</title>
+  <desc id="desc">epsilon of t equals sigma sub zero over E sub one times quantity one minus E sub two over E sub one plus E sub two times exponential of minus t over tau sub c. Tau sub c equals eta times E sub one plus E sub two over E sub one times E sub two.</desc>
+  <style>
+    .eq { font-family: 'Times New Roman', Times, serif; font-size: 42px; fill: #111; }
+    .small { font-size: 28px; }
+    .sub { font-size: 65%; baseline-shift: sub; }
+    .sup { font-size: 65%; baseline-shift: super; }
+  </style>
+  <rect x="0" y="0" width="1200" height="220" fill="white"/>
+
+  <text x="40" y="78" class="eq">
+    <tspan>ε(t) = σ</tspan><tspan class="sub">0</tspan>
+    <tspan> / E</tspan><tspan class="sub">1</tspan>
+    <tspan> · (1 − (E</tspan><tspan class="sub">2</tspan>
+    <tspan> / (E</tspan><tspan class="sub">1</tspan>
+    <tspan> + E</tspan><tspan class="sub">2</tspan>
+    <tspan>)) · exp(−t / τ</tspan><tspan class="sub">c</tspan><tspan>))</tspan>
+  </text>
+
+  <text x="40" y="160" class="eq">
+    <tspan>τ</tspan><tspan class="sub">c</tspan>
+    <tspan> = η·(E</tspan><tspan class="sub">1</tspan>
+    <tspan> + E</tspan><tspan class="sub">2</tspan>
+    <tspan>) / (E</tspan><tspan class="sub">1</tspan>
+    <tspan>·E</tspan><tspan class="sub">2</tspan><tspan>)</tspan>
+  </text>
+</svg>
